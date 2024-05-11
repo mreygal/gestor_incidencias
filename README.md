@@ -1,4 +1,4 @@
-# Gestor de Incidencias - ASIR
+# Gestor de Incidencias
 
 Aquí está la descripción breve de mi proyecto de un Gestor de Incidencias con funcionalidad CRUD (Create, Read, Update, Delete).
 
