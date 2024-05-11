@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Incidencia</title>
+</head>
+
+<body>
+    <h1>Editar Incidencia</h1>
+    <form id="formularioIncidencias">
+        <input type="hidden" id="idIncidencia" name="idIncidencia">
+        <label for="titulo">Título:</label>
+        <br>
+        <input type="text" id="titulo" name="titulo" required>
+        <br>
+        <label for="descripcion">Descripción:</label>
+        <br>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+        <br>
+        <button class="botonEnviar" type="submit">Guardar cambios</button>
+    </form>
+
+    <!-- Este script es necesario y esencial para que todo funcione: -->
+    <script src="js/actualizar_incidencia.js"></script>
+</body>
+
+</html>
+
+
