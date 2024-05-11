@@ -31,10 +31,10 @@ Siguiendo los siguientes pasos, se puede instalar el gestor de incidencias en mo
 4. Crea una tabla dentro de esa base de datos con la siguiente orden SQL:
 ```sql
 CREATE TABLE IF NOT EXISTS incidencias (
-id INT AUTO_INCREMENT PRIMARY KEY,
-titulo VARCHAR(255) NOT NULL,
-descripcion TEXT NOT NULL,
-fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  titulo VARCHAR(255) NOT NULL,
+  descripcion TEXT NOT NULL,
+  fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
 5. Ve a http://localhost/gestor_incidencias/meter_incidencia.html para ir a la página de creación de incidencias.
