@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS incidencias (
 ```
 5. Ve a http://localhost/gestor_incidencias/meter_incidencia.html para ir a la página de creación de incidencias.
 6. Ve a http://localhost/gestor_incidencias/ver_incidencias.html para ir a la página de visualización de incidencias.
-7. Utiliza el gestor de incidencias tanto como quieras.
+7. ¡Utiliza el gestor de incidencias tanto como quieras!
 
 ## Vídeo explicativo
 
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS incidencias (
 ## Notas
 
 - Por algún motivo, no basta con que los objetos JSON estén enviados por los archivos PHP, sino que luego tengo que convertir (reconvertir) esos datos en JSON de nuevo en los archivos JS. Si no, a veces no funciona el gestor de incidencias. He dejado esta doble conversión ya hecha en el código del repositorio, así que nada más comento esto aquí como curiosidad.
-- Al pasar el trabajo de .docx a .pdf, por algún motivo, parece que el texto no se puede seleccionar debido a la fuente requeridad del trabajo (Helvetica Light), la cual tuve que instalarla a parte. Es por ello que he incluido una versión en PDF del trabajo en la que el texto sí se puede seleccionar, dentro de la carpeta /PDF de este repositorio. Por si se desea pasar el trabajo por Turnitin o algún otro software anti-plagio similar.
+- Al pasar el trabajo de .docx a .pdf, por algún motivo, parece que el texto no se puede seleccionar debido a la fuente requerida del trabajo (Helvetica Light), la cual tuve que instalarla a parte y parece que entra en conflicto con Windows 11 de alguna manera. Es por ello que he incluido una versión en PDF del trabajo en la que el texto sí se puede seleccionar, dentro de la carpeta /PDF de este repositorio. Dejo el PDF de esa manera por si se desea pasar el trabajo por Turnitin o algún otro software anti-plagio similar.
 
 ## Contacto
 
