@@ -41,6 +41,13 @@ CREATE TABLE IF NOT EXISTS incidencias (
 6. Ve a http://localhost/gestor_incidencias/ver_incidencias.html para ir a la página de visualización de incidencias.
 7. Utiliza el gestor de incidencias tanto como quieras.
 
+## Vídeo explicativo
+
+[Aquí](https://youtu.be/3i_NznCheSU) se puede ver el vídeo explicativo.
+
+## Notas
+
+Por algún motivo, no basta con que los objetos JSON estén enviados por los archivos PHP, sino que luego tengo que convertir (reconvertir) esos datos en JSON de nuevo en los archivos JS. Si no, a veces no funciona el gestor de incidencias. He dejado esta doble conversión ya hecha en el código del repositorio, así que nada más comento esto aquí como curiosidad.
 
 ## Contacto
 
