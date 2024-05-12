@@ -26,7 +26,7 @@ Este gestor de incidencias tiene como principales funcionalidades:
 Siguiendo los siguientes pasos, se puede instalar el gestor de incidencias en modo local:
 
 1. Ten un servidor web y otro servidor MySQL funcionando donde pongas los archivos. Esto se puede hacer fácilmente con [XAMPP](https://www.apachefriends.org/es/download.html).
-2. Si has utilizado XAMPP, clona el repositorio dentro de la carpeta de XAMPP llamada "htdocs".
+2. Si has utilizado XAMPP, clona el repositorio dentro de la carpeta de XAMPP llamada "htdocs" (asegúrate de que la carpeta del repositorio se llama "gestor_incidencias". Renómbrala si hace falta).
 3. Ve a http://localhost/phpadmin con tu navegador y crea una base de datos llamada "db_gestor_incidencias".
 4. Crea una tabla dentro de esa base de datos con la siguiente orden SQL:
 ```sql
