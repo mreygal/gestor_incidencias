@@ -1,6 +1,6 @@
 # Gestor de Incidencias
 
-Aquí está la descripción breve de mi proyecto de un Gestor de Incidencias con funcionalidad CRUD (Create, Read, Update, Delete).
+Aquí está la descripción breve de mi proyecto de un Gestor de Incidencias con funcionalidad CRUD (Create, Read, Update, Delete). Se recomienda leer las notas explicativas del final de este documento. Asimismo, se recuerda que este repositorio puede estar sujeto a cambios a medida que desee ampliar este proyecto. Se puede ver siempre el historial de versiones de los diferentes archivos.
 
 ## Descripción del proyecto
 
@@ -47,7 +47,8 @@ CREATE TABLE IF NOT EXISTS incidencias (
 
 ## Notas
 
-Por algún motivo, no basta con que los objetos JSON estén enviados por los archivos PHP, sino que luego tengo que convertir (reconvertir) esos datos en JSON de nuevo en los archivos JS. Si no, a veces no funciona el gestor de incidencias. He dejado esta doble conversión ya hecha en el código del repositorio, así que nada más comento esto aquí como curiosidad.
+- Por algún motivo, no basta con que los objetos JSON estén enviados por los archivos PHP, sino que luego tengo que convertir (reconvertir) esos datos en JSON de nuevo en los archivos JS. Si no, a veces no funciona el gestor de incidencias. He dejado esta doble conversión ya hecha en el código del repositorio, así que nada más comento esto aquí como curiosidad.
+- Al pasar el trabajo de .docx a .pdf, por algún motivo, parece que el texto no se puede seleccionar debido a la fuente requeridad del trabajo (Helvetica Light), la cual tuve que instalarla a parte. Es por ello que he incluido una versión en PDF del trabajo en la que el texto sí se puede seleccionar, dentro de la carpeta /PDF de este repositorio. Por si se desea pasar el trabajo por Turnitin o algún otro software anti-plagio similar.
 
 ## Contacto
 
