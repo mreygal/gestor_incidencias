@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS incidencias (
 
 ## Vídeo-Presentación
 
-[Aquí] (https://www.youtube.com/watch?v=4_30PTZ1mtg) se puede ver el vídeo-presentación.
+[Aquí](https://www.youtube.com/watch?v=4_30PTZ1mtg) se puede ver el vídeo-presentación.
 
 ## Notas
 
